@@ -73,11 +73,9 @@ FOTO:
 
 CÓDIGO:
 
-select count(pais) as total_paises
+select count(distinct pais) as total_paises
 
 from tabela_paises
-
-group by pais
 
 FOTO:
 
