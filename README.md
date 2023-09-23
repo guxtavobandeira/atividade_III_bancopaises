@@ -9,9 +9,19 @@ select * from tabela_paises
 FOTO:
 ![Captura de Tela (51)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/efccb8a7-ae56-4554-b8f6-b2f23e42bb4b)
 
-3. Selecione todas as cidades cujo país seja brazil;
+2. Selecione todas as cidades cujo país seja brazil;
+
 CÓDIGO:
+
+select cidade
+from tabela_paises
+where pais='Brazil'
+
 FOTO:
+
+![Captura de Tela (52)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/392b05b2-311d-400b-ba1e-1958bc2819c2)
+
+
 4. Selecione todas as cidades cuja região(estado) é ceará;
 CÓDIGO:
 FOTO:
