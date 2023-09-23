@@ -3,6 +3,7 @@ RESOLUÇÃO DAS QUESTÕES:
 1. Selecione todos os dados dos países da tabela_paises;
 CÓDIGO:
 select * from tabela_paises
+
 FOTO:
 ![Captura de Tela (51)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/efccb8a7-ae56-4554-b8f6-b2f23e42bb4b)
 
