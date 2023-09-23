@@ -57,17 +57,16 @@ FOTO:
 
 CÓDIGO:
 
-select regiao, count(regiao) as total_regioes_canada
+select count(distinct regiao) as total_regioes
 
 from tabela_paises
 
 where pais='Canada'
 
-group by regiao
-
 FOTO:
 
-![Captura de Tela (55)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/bf78ace6-9cf6-429a-9dff-eadd5380856f)
+![Captura de Tela (60)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/9d2f4b63-ccde-4931-8eac-97e380bb8784)
+
 
 6. Quantos países diferentes existem na tabela 'tabela_paises';
 
