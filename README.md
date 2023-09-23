@@ -116,8 +116,18 @@ FOTO:
 CÓDIGO:
 FOTO:
 11. Ordene os nomes dos países sem repetição em ordem alfabética;
+
 CÓDIGO:
+
+select distinct pais
+
+from tabela_paises
+
+order by pais
+
 FOTO:
+
+![Captura de Tela (61)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/3b0fa802-8966-4d01-8a31-2dfd68c27b2b)
 
 
 
