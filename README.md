@@ -1,7 +1,9 @@
 RESOLUÇÃO DAS QUESTÕES:
 
 1. Selecione todos os dados dos países da tabela_paises;
+
 CÓDIGO:
+
 select * from tabela_paises
 
 FOTO:
