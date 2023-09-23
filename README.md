@@ -101,11 +101,11 @@ FOTO:
 
 CÓDIGO:
 
-select pais,count(pais) as total regioes
+select pais,count(pais) as total_regioes
 
 from tabela_paises
 
-group by paises
+group by pais
 
 FOTO:
 
