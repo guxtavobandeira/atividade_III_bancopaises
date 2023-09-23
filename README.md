@@ -79,7 +79,8 @@ from tabela_paises
 
 FOTO:
 
-![Captura de Tela (56)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/ee4924d4-2c8a-4283-bbda-9bf87d2c93de)
+![Captura de Tela (59)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/dd5f9b88-3b43-4407-9147-ec4c866cfb7c)
+
 
 7. Quantas cidades diferentes existem no brazil;
 
