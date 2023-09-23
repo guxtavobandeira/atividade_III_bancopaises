@@ -110,12 +110,36 @@ FOTO:
 ![Captura de Tela (58)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/acb2437f-2ce5-49aa-b42c-90fdd98a8282)
 
 9. Quantas pessoas com nome começando em 'João' existem no banco?
+
 CÓDIGO:
+
+SELECT
+
+SUBSTRING(nome, 0, CHARINDEX(' ', nome)) As Nome
+
+from tabela_paises
+
+where nome = 'João'
+
+order by nome
+
+
 FOTO:
-10. Quantas pessoas têm o nome John?
+
+![Captura de Tela (62)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/41ad0b31-8a73-4f52-8d65-688c3910777f)
+
+11. Quantas pessoas têm o nome John?
+
 CÓDIGO:
+
+
+
 FOTO:
-11. Ordene os nomes dos países sem repetição em ordem alfabética;
+
+
+
+
+12. Ordene os nomes dos países sem repetição em ordem alfabética;
 
 CÓDIGO:
 
