@@ -57,13 +57,13 @@ FOTO:
 
 CÓDIGO:
 
-select count(regiao) as total_regioes
+select regiao, count(regiao) as total_regioes_canada
 
 from tabela_paises
 
-where pais='Canadá'
+where pais='Canada'
 
-group by pais
+group by regiao
 
 FOTO:
 
