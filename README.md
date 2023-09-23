@@ -14,7 +14,9 @@ FOTO:
 CÓDIGO:
 
 select cidade
+
 from tabela_paises
+
 where pais='Brazil'
 
 FOTO:
