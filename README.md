@@ -95,7 +95,7 @@ where nome like '%João'
 ```
 
 ## Resultado esperado
-![image](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/3e8dc178-7df8-4f6a-967b-2df84ee6f0e2)
+![image](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/ab5a80ab-6d06-4bee-aeca-8d64dde18cce)
 
 
 ## 10. Quantas pessoas têm o nome John?
