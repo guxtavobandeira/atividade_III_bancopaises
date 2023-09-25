@@ -107,11 +107,11 @@ select count(nome)
 
 from tabela_paises 
 
-where nome = 'John%'
+where nome like '%John%'
 ```
 
 ## Resultado esperado
-![Captura de Tela (63)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/7d1665a8-ffcc-4b96-847b-211266f6dd6e)
+![image](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/418bef7e-68aa-49ec-bfb4-99f52535b6dc)
 
 
 ## 11. Ordene os nomes dos países sem repetição em ordem alfabética;
