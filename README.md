@@ -87,19 +87,16 @@ group by pais
 
 ## 9. Quantas pessoas com nome começando em 'João' existem no banco?
 ```9
-SELECT
+select count(nome) 
 
-SUBSTRING(nome, 0, CHARINDEX(' ', nome)) As Nome
+from tabela_paises 
 
-from tabela_paises
-
-where nome = 'João'
-
-order by nome
+where nome like '%João'
 ```
 
 ## Resultado esperado
-![Captura de Tela (62)](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/41ad0b31-8a73-4f52-8d65-688c3910777f)
+![image](https://github.com/guxtavobandeira/atividade_III_bancopaises/assets/111713549/3e8dc178-7df8-4f6a-967b-2df84ee6f0e2)
+
 
 ## 10. Quantas pessoas têm o nome John?
 ```10
