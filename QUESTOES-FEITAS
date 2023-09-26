@@ -1,40 +1,63 @@
-QUESTOES FEITAS- GUSTAVO BANDEIRA
+1. Selecione todos os dados dos países da tabela_paises;
+select * from tabela_paises
 
---1
-select * from tabela_paises;
-
---2
+2. Selecione todas as cidades cujo país seja brazil;
 select cidade
-from tabela_paises 
+from tabela_paises
 where pais='Brazil'
 
---3
-select cidade 
+3. Selecione todas as cidades cuja região(estado) é ceará;
+select cidade
 from tabela_paises
 where regiao='Ceará'
 
---4
+4. Utilize a função count para saber quantas regiões(estados) existem na China, utilize também o group by;
 select regiao, count(regiao) as total_regioes_china
 from tabela_paises
 where pais='China' group by regiao
 
---5
-select regiao, count(regiao) as total_regioes_canada
+5. Quais regiões, diferentes, existem no Canadá?
+select count(distinct regiao) as total_regioes
 from tabela_paises
-where pais='Canadá' group by regiao
+where pais='Canada'
 
---6
-select pais, count(pais)
+6. Quantos países diferentes existem na tabela 'tabela_paises';
+select count(distinct pais) as total_paises
 from tabela_paises
-group by pais
 
---7
-select cidade, count(distinct cidade)
+7. Quantas cidades diferentes existem no brazil;
+select count(distinct cidade)
 from tabela_paises
 where pais='Brazil'
-group by cidade
 
---8
-select pais, count(pais) as total_regioes 
-from tabela_paises 
+8. Selecione os países e quantas regiões cada país possui;
+select pais,count(pais) as total_regioes
+from tabela_paises6. Quantos países diferentes existem na tabela 'tabela_paises';
+
 group by pais
+9. Quantas pessoas com nome começando em 'João' existem no banco?
+select count(nome) 
+from tabela_paises 
+where nome like '%João'
+
+10. Quantas pessoas têm o nome John?
+select count(nome)
+from tabela_paises 
+where nome like '%John%'
+
+11. Ordene os nomes dos países sem repetição em ordem alfabética;
+select distinct pais
+from tabela_paises
+order by pais
+
+
+
+
+
+
+
+
+
+
+
+
